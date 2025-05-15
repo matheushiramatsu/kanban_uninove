@@ -84,11 +84,5 @@ Projeto desenvolvido em **Ruby on Rails** para construir uma estrutura ágil de 
 
 ## Diagrama UML
 
-KANBAN
-
-*(Diagrama UML representando a estrutura e os relacionamentos do sistema Kanban.)*
-
-```
-
-Se quiser, posso ajudar também a criar um badge, seção de contribuições ou algo mais!
-```
+[KANBAN]
+(https://pin.it/xsg6lyUE8)
