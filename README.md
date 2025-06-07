@@ -1,100 +1,99 @@
-Aqui está a formatação do seu conteúdo em **Markdown**, ideal para o `README.md` de um projeto no GitHub:
+Descrição
+Projeto desenvolvido em Ruby on Rails para construir uma estrutura ágil de Kanban com as seguintes funcionalidades:
 
-````markdown
-# Kanban Ruby on Rails
+Criar, atualizar, deletar e mostrar tarefas;
 
-Um projeto em Ruby on Rails para construir uma estrutura ágil **Kanban**, capaz de:
+Mover tarefas entre diferentes status;
 
-- Criar, atualizar, deletar e mostrar tarefas;
-- Transpassar a tarefa entre diferentes status;
-- Mostrar um **Dashboard** com dados sobre as tarefas.
+Exibir um Dashboard com dados sobre as tarefas.
 
-🔗 **Deploy**: [kanbanrubyonrails-production.up.railway.app](https://kanbanrubyonrails-production.up.railway.app/)
+Deploy:
+Kanban Ruby on Rails
 
----
+Requerimentos
+Ruby on Rails: 7.0.7.2
 
-## 🧰 Requisitos
+Ruby: 3.2.2
 
-- Ruby on Rails 7.0.7.2  
-- Ruby 3.2.2  
-- JavaScript  
-- PostgreSQL 15  
+Javascript
 
----
+PostgreSQL: 15
 
-## 🚀 Como executar o projeto
+Para Executar o Projeto
+Clone o Repositório
 
-1. Clone o repositório:
+No terminal, execute:
 
-   ```bash
-   git clone https://github.com/Alex-dev-if/Kanban_ruby_on_rails.git
-````
+bash
+Copiar
+Editar
+git clone https://github.com/matheushiramatsu/kanban_uninove.git
+Abra o Projeto no Editor
 
-2. Acesse a pasta do projeto:
+Entre na pasta Kanban_ruby_on_rails que foi criada.
+No VSCode, por exemplo, abra o terminal nessa pasta e digite:
 
-   ```bash
-   cd Kanban_ruby_on_rails
-   ```
+bash
+Copiar
+Editar
+code .
+Configure o Banco de Dados
 
-   > No VS Code, você pode usar o comando:
-   >
-   > ```bash
-   > code .
-   > ```
+Acesse a pasta config e abra o arquivo database.yml.
 
-3. Configure o banco de dados:
+Nos campos username e password, altere para seu nome de usuário e senha do PostgreSQL.
 
-   * Abra o arquivo `config/database.yml`;
-   * Altere os campos `username` e `password` com seu usuário e senha do PostgreSQL.
+Crie e Configure o Banco de Dados
 
-4. Crie o banco de dados:
+No terminal, estando na pasta Kanban_ruby_on_rails, execute:
 
-   ```bash
-   rails db:create
-   ```
+bash
+Copiar
+Editar
+rails db:create
+rails db:migrate
+Inicie o Servidor
 
-5. Execute as migrações:
+Execute:
 
-   ```bash
-   rails db:migrate
-   ```
+bash
+Copiar
+Editar
+rails s
+Acesse a Aplicação
 
-6. Inicie o servidor:
+No navegador, abra o host definido (por padrão, localhost:3000 ou 127.0.0.1:3000).
 
-   ```bash
-   rails s
-   ```
+Observação: Caso ocorra algum erro, tente atualizar a página. A reinicialização da conexão pode resolver a maioria dos problemas.
 
-   Acesse no navegador: [http://127.0.0.1:3000](http://127.0.0.1:3000)
+Como Utilizar o Aplicativo
+Criar uma nova tarefa:
 
-> ℹ️ Caso algum erro ocorra, tente atualizar a página — isso pode resolver.
+Clique no botão "nova tarefa".
 
----
+Preencha o nome, a descrição e selecione um status para a tarefa.
 
-## 📝 Como utilizar o aplicativo
+Clique em "salvar".
 
-* **Criar tarefa:** clique em **Nova Tarefa**, insira o nome, descrição e status, depois clique em **Salvar**.
-* **Mover tarefa:** arraste a tarefa entre as colunas **A Fazer**, **Em Progresso** e **Concluídas**.
-* **Editar tarefa:** clique em **Mostrar Tarefa** e depois em **Editar a Tarefa**.
-* **Deletar tarefa:** clique em **Mostrar Tarefa** e depois em **Apagar**.
-* **Acessar dashboard:** clique em **Dashboard** no menu.
+Mudar o Status da Tarefa:
 
----
+Arraste a tarefa entre as colunas disponíveis: a fazer, em progresso e concluídas.
 
-## 📊 Diagrama UML
+Editar uma Tarefa:
 
-> *(Insira o diagrama UML aqui, ou adicione um link ou imagem)*
-> Exemplo:
-> ![UML Kanban](./path/to/uml-diagram.png)
+Clique no botão "mostrar tarefa".
 
----
+Em seguida, clique no botão "editar a tarefa".
 
-## 📌 Autor
+Deletar uma Tarefa:
 
-**Alex-dev-if**
-GitHub: [github.com/Alex-dev-if](https://github.com/Alex-dev-if)
+Clique no botão "mostrar tarefa".
 
-```
+Em seguida, clique no botão "apagar".
 
-Se quiser, posso gerar automaticamente uma imagem ou um esboço do diagrama UML para o projeto. É só me dizer quais entidades/classes e relacionamentos você quer incluir.
-```
+Acessar o Dashboard:
+
+Clique no botão "dashboard" para visualizar os dados e estatísticas das tarefas.
+
+Diagrama UML
+KANBAN
