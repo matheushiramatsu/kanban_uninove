@@ -25,7 +25,7 @@ Projeto desenvolvido em **Ruby on Rails** para construir uma estrutura ágil de 
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/Alex-dev-if/Kanban_ruby_on_rails.git](https://github.com/matheushiramatsu/kanban_uninove.git
+   git clone https://github.com/matheushiramatsu/kanban_uninove.git
 ````
 
 2. Abra o projeto no seu editor de código:
