@@ -1,99 +1,94 @@
-Descrição
-Projeto desenvolvido em Ruby on Rails para construir uma estrutura ágil de Kanban com as seguintes funcionalidades:
+````markdown
+# Projeto Kanban Ruby on Rails
 
-Criar, atualizar, deletar e mostrar tarefas;
+## Descrição
 
-Mover tarefas entre diferentes status;
+Projeto desenvolvido em **Ruby on Rails** para construir uma estrutura ágil de **Kanban** com as seguintes funcionalidades:
 
-Exibir um Dashboard com dados sobre as tarefas.
+- Criar, atualizar, deletar e mostrar tarefas;
+- Mover tarefas entre diferentes status;
+- Exibir um Dashboard com dados sobre as tarefas.
 
-Deploy:
-Kanban Ruby on Rails
+---
 
-Requerimentos
-Ruby on Rails: 7.0.7.2
+## Requerimentos
 
-Ruby: 3.2.2
+- Ruby on Rails 7.0.7.2  
+- Ruby 3.2.2  
+- Javascript  
+- PostgreSQL 15
 
-Javascript
+---
 
-PostgreSQL: 15
+## Para Executar o Projeto
 
-Para Executar o Projeto
-Clone o Repositório
+1. Clone o repositório:
 
-No terminal, execute:
+   ```bash
+   git clone https://github.com/Alex-dev-if/Kanban_ruby_on_rails.git](https://github.com/matheushiramatsu/kanban_uninove.git
+````
 
-bash
-Copiar
-Editar
-git clone https://github.com/matheushiramatsu/kanban_uninove.git
-Abra o Projeto no Editor
+2. Abra o projeto no seu editor de código:
 
-Entre na pasta Kanban_ruby_on_rails que foi criada.
-No VSCode, por exemplo, abra o terminal nessa pasta e digite:
+   Entre na pasta `Kanban_ruby_on_rails`.
+   No VSCode, por exemplo, abra o terminal nessa pasta e execute:
 
-bash
-Copiar
-Editar
-code .
-Configure o Banco de Dados
+   ```bash
+   code .
+   ```
 
-Acesse a pasta config e abra o arquivo database.yml.
+3. Configure o banco de dados:
 
-Nos campos username e password, altere para seu nome de usuário e senha do PostgreSQL.
+   * Abra o arquivo `config/database.yml`.
+   * Nos campos `username` e `password`, substitua pelos seus dados do PostgreSQL.
 
-Crie e Configure o Banco de Dados
+4. Crie e configure o banco de dados:
 
-No terminal, estando na pasta Kanban_ruby_on_rails, execute:
+   ```bash
+   rails db:create
+   rails db:migrate
+   ```
 
-bash
-Copiar
-Editar
-rails db:create
-rails db:migrate
-Inicie o Servidor
+5. Inicie o servidor:
 
-Execute:
+   ```bash
+   rails s
+   ```
 
-bash
-Copiar
-Editar
-rails s
-Acesse a Aplicação
+6. Acesse a aplicação no navegador:
 
-No navegador, abra o host definido (por padrão, localhost:3000 ou 127.0.0.1:3000).
+   * Por padrão em: `http://localhost:3000` ou `http://127.0.0.1:3000`
 
-Observação: Caso ocorra algum erro, tente atualizar a página. A reinicialização da conexão pode resolver a maioria dos problemas.
+> **Obs:** Caso ocorra algum erro, tente atualizar a página, isso normalmente resolve.
 
-Como Utilizar o Aplicativo
-Criar uma nova tarefa:
+---
 
-Clique no botão "nova tarefa".
+## Como Utilizar o Aplicativo
 
-Preencha o nome, a descrição e selecione um status para a tarefa.
+* **Criar nova tarefa:**
+  Clique no botão **"nova tarefa"**, preencha nome, descrição e status, e clique em **"salvar"**.
 
-Clique em "salvar".
+* **Alterar status da tarefa:**
+  Arraste a tarefa entre as colunas: **a fazer**, **em progresso** e **concluídas**.
 
-Mudar o Status da Tarefa:
+* **Editar tarefa:**
+  Clique em **"mostrar tarefa"** e depois em **"editar a tarefa"**.
 
-Arraste a tarefa entre as colunas disponíveis: a fazer, em progresso e concluídas.
+* **Deletar tarefa:**
+  Clique em **"mostrar tarefa"** e depois em **"apagar"**.
 
-Editar uma Tarefa:
+* **Dashboard:**
+  Clique no botão **"dashboard"** para visualizar dados e estatísticas das tarefas.
 
-Clique no botão "mostrar tarefa".
+---
 
-Em seguida, clique no botão "editar a tarefa".
+## Diagrama UML
 
-Deletar uma Tarefa:
-
-Clique no botão "mostrar tarefa".
-
-Em seguida, clique no botão "apagar".
-
-Acessar o Dashboard:
-
-Clique no botão "dashboard" para visualizar os dados e estatísticas das tarefas.
-
-Diagrama UML
 KANBAN
+
+*(Diagrama UML representando a estrutura e os relacionamentos do sistema Kanban.)*
+
+```
+
+Se quiser, posso ajudar também a criar um badge, seção de contribuições ou algo mais!
+```
